@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Калькулятор електроспоживання</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">Калькулятор використання енергії</h1><br>
+    <label>Оберіть країну в якій живете: </label>
+    <select id="country">
+        <option id="Ukraine">Україна</option>
+        <option id="Poland">Польща</option>
+    </select><br>
+
+    <label class="line2">Введіть енергоспоживання вашого пристрою: </label>
+    <input type="number" class="line2" id="usingOfEnergy">
+    <select id="type" class="line2">
+        <option>Вт</option>
+        <option>Квт</option>
+    </select><br>
+
+    <label class="line2">Скільки годин на день ви використовуєте цей пристій? </label>
+    <input type="number" class="line2" id="time">
+    <label>год</label><br>
+
+    <button id="submit">Розрахувати</button><br><br><br><br><br><br><br>
+
+    <label id="result" class="resultLine"></label>
+</body>
+<body>
+    <script src="index.js"></script>
+</body>
+</html>
